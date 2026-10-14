@@ -24,5 +24,19 @@ Este repositorio contiene los programas desarrollados para la Evaluación Parcia
 
 ### 1. Script para agregar 50 libros a la biblioteca (`Ramdom50libros.py`)
 Para ejecutar el script que genera y registra 50 libros aleatorios en el servidor de la biblioteca:
+
+### 2. Script de Geolocalización y Planificación de Rutas (geolocalizacion.py)
+
+Para ejecutar el software interactivo de geolocalización e indicaciones de viaje:
+
+1. Abra una terminal en la VM DEVASC y navegue al directorio del repositorio.
+2. Ejecute el programa con el siguiente comando:
+   python3 geolocalizacion.py
+
+Instrucciones de uso e interacción:
+- Ingrese la ciudad o dirección de origen cuando el programa se lo solicite.
+- Ingrese la ciudad o dirección de destino.
+- El programa desplegará la distancia total y tiempo estimado redondeados a 2 decimales, junto con la narrativa del viaje paso a paso en español.
+- Para finalizar la ejecución del programa ingrese 's' o 'salir' en cualquiera de las consultas de ubicación.
 ```bash
 python3 Ramdom50libros.py
